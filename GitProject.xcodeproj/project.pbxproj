@@ -18,6 +18,7 @@
 		A7AEAFB126F5527F00EE4545 /* GitProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AEAFB026F5527F00EE4545 /* GitProjectUITests.swift */; };
 		A7AEAFC026F5554200EE4545 /* Task1.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AEAFBF26F5554200EE4545 /* Task1.swift */; };
 		A7AEAFC226F5556A00EE4545 /* SampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AEAFC126F5556A00EE4545 /* SampleView.swift */; };
+		A7AEAFC626F5562400EE4545 /* Task2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AEAFC526F5562400EE4545 /* Task2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		A7AEAFB226F5527F00EE4545 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A7AEAFBF26F5554200EE4545 /* Task1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task1.swift; sourceTree = "<group>"; };
 		A7AEAFC126F5556A00EE4545 /* SampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleView.swift; sourceTree = "<group>"; };
+		A7AEAFC526F5562400EE4545 /* Task2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 		A7AEAF8A26F5527D00EE4545 /* GitProject */ = {
 			isa = PBXGroup;
 			children = (
+				A7AEAFC426F5561D00EE4545 /* Task2 */,
 				A7AEAFBE26F5553700EE4545 /* Task1 */,
 				A7AEAF8B26F5527D00EE4545 /* AppDelegate.swift */,
 				A7AEAF8D26F5527E00EE4545 /* SceneDelegate.swift */,
@@ -143,6 +146,14 @@
 				A7AEAFC126F5556A00EE4545 /* SampleView.swift */,
 			);
 			path = Task1;
+			sourceTree = "<group>";
+		};
+		A7AEAFC426F5561D00EE4545 /* Task2 */ = {
+			isa = PBXGroup;
+			children = (
+				A7AEAFC526F5562400EE4545 /* Task2.swift */,
+			);
+			path = Task2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,6 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7AEAF9026F5527E00EE4545 /* ViewController.swift in Sources */,
+				A7AEAFC626F5562400EE4545 /* Task2.swift in Sources */,
 				A7AEAF8C26F5527D00EE4545 /* AppDelegate.swift in Sources */,
 				A7AEAF9626F5527E00EE4545 /* GitProject.xcdatamodeld in Sources */,
 				A7AEAF8E26F5527E00EE4545 /* SceneDelegate.swift in Sources */,

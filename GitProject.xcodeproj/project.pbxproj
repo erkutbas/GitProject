@@ -16,6 +16,7 @@
 		A7AEAF9B26F5527E00EE4545 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7AEAF9926F5527E00EE4545 /* LaunchScreen.storyboard */; };
 		A7AEAFA626F5527F00EE4545 /* GitProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AEAFA526F5527F00EE4545 /* GitProjectTests.swift */; };
 		A7AEAFB126F5527F00EE4545 /* GitProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AEAFB026F5527F00EE4545 /* GitProjectUITests.swift */; };
+		A7AEAFC026F5554200EE4545 /* Task1.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AEAFBF26F5554200EE4545 /* Task1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		A7AEAFAC26F5527F00EE4545 /* GitProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7AEAFB026F5527F00EE4545 /* GitProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitProjectUITests.swift; sourceTree = "<group>"; };
 		A7AEAFB226F5527F00EE4545 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7AEAFBF26F5554200EE4545 /* Task1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		A7AEAF8A26F5527D00EE4545 /* GitProject */ = {
 			isa = PBXGroup;
 			children = (
+				A7AEAFBE26F5553700EE4545 /* Task1 */,
 				A7AEAF8B26F5527D00EE4545 /* AppDelegate.swift */,
 				A7AEAF8D26F5527E00EE4545 /* SceneDelegate.swift */,
 				A7AEAF8F26F5527E00EE4545 /* ViewController.swift */,
@@ -129,6 +132,14 @@
 				A7AEAFB226F5527F00EE4545 /* Info.plist */,
 			);
 			path = GitProjectUITests;
+			sourceTree = "<group>";
+		};
+		A7AEAFBE26F5553700EE4545 /* Task1 */ = {
+			isa = PBXGroup;
+			children = (
+				A7AEAFBF26F5554200EE4545 /* Task1.swift */,
+			);
+			path = Task1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,6 +276,7 @@
 				A7AEAF8C26F5527D00EE4545 /* AppDelegate.swift in Sources */,
 				A7AEAF9626F5527E00EE4545 /* GitProject.xcdatamodeld in Sources */,
 				A7AEAF8E26F5527E00EE4545 /* SceneDelegate.swift in Sources */,
+				A7AEAFC026F5554200EE4545 /* Task1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
